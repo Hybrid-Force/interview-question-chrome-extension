@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Font Info Popover",
+  "version": "1.0",
+  "description": "Shows a popover with font info on text hover",
+  "permissions": ["tabs"],
+  "content_scripts": [{
+    "matches": ["https://*.com/*"],
+    "css": ["content.css"],
+    "js": ["content.js"]
+  }]
+}

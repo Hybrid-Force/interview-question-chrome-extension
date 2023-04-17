@@ -1,0 +1,10 @@
+#font-popover {
+    /* Default light styles */
+    background: #fff;
+    color: #333;
+}
+
+#font-popover[data-theme="dark"] {
+    background: #333;
+    color: #fff;
+}
